@@ -1,1 +1,112 @@
+body{
+    background-color: #d7e6b4;
+    color:#7D493E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin:0
+}
+#container{
+    width: 800px ;
+    margin: 0px auto;
+    background-color: #F0BBB4 ;
+    padding: 20px ;
+    border-left: #fff solid 5px ;  
+    border-right: #fff solid 5px;
+    
 
+}
+
+h1{
+    background-color: #B4CAF0;
+    border: #6F7F9B, solid, 3px;
+    border-radius: 5px;
+    padding: 5px ; 
+    margin-bottom: 7px;
+    width: 65%;
+    text-align: center;
+    margin: 5px auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 0.9em;
+    font-style: inherit;
+}
+
+h3{
+    border: double 5px #6F7F9B ;
+    text-align: center;
+    margin: 5px auto;
+}
+
+p{
+    line-height: 1.7em;
+     background-color:#E0F0B4;
+
+}
+
+img{
+    float: left;
+    width: 200px;
+    border: #6F7F9B solid 5px ;
+    margin-right: 10px
+} 
+
+a:link{
+    color:rgb(119, 165, 251);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color:rgb(16, 95, 242);
+}
+
+a:hover{
+    color: rgb(244, 129, 219);
+    text-decoration: underline;
+
+}
+
+a:active{
+    color:rgb(1, 108, 111);
+}
+
+h3:hover{
+    border-color: blue
+}
+
+#butteryellow{
+   float: right; 
+}
+#fallharbor{
+    width: 210px;
+    height: 220px;
+    float: right;
+}
+
+#Mintchocochip{
+    width: 240px;
+}
+
+#p1{
+    border: white solid 2px;
+    padding: 20px 
+}
+
+#p2{
+    border: #6F7F9B solid 2px;
+    padding: 20px 
+}
+#p3{
+    border: white solid 2px;
+    padding: 20px 
+}
+
+/*Class rule */
+.highlight{
+    font-style: italic;
+    background-color: rgb(189, 244, 226);
+    padding: 3px;
+    color: rgb(85, 148, 249)
+}
