@@ -5,7 +5,7 @@ body{
     margin:0
 }
 #container{
-    width: 800px ;
+    width: 1000px ;
     margin: 0px auto;
     background-color: #F0BBB4 ;
     padding: 20px ;
@@ -53,13 +53,13 @@ img{
 } 
 
 a:link{
-    color:rgb(119, 165, 251);
+    color:rgb(155, 46, 251);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:visited{
-    color:rgb(16, 95, 242);
+    color:rgb(177, 113, 255);
 }
 
 a:hover{
@@ -82,7 +82,7 @@ h3:hover{
 #fallharbor{
     width: 210px;
     height: 220px;
-    float: right;
+    float: left;
 }
 
 #Mintchocochip{
@@ -110,3 +110,46 @@ h3:hover{
     padding: 3px;
     color: rgb(85, 148, 249)
 }
+
+#sidebar {
+    background-color: #c4d7f9 ;
+    margin: 20px 10px;
+    padding: 30px ; 
+    width: 225px ; 
+    float: right; 
+    border:#7D493E dotted 2px ; 
+    line-height: 2.2em;  
+
+}
+
+@media(max-width: 1200px){
+    #container{
+        background-color: rgb(232, 170, 208);
+        width: 800px
+    }
+}
+@media (max-width:992px){
+    #container{
+       width:100% ;
+    }
+    #container,p{
+        margin:0;
+        padding:0;
+        border: none;
+    }
+    h1,h2,h3,p,div{
+        background-color: #E0F0B4 !important;
+    }
+}
+@media(max-width:768px){
+   #sidebar{ display: none;
+   }
+   img, #butteryellow, #fallharbor{
+    clear:both;
+    border: none;
+    width:100%;
+   }
+   h3{
+    border:none
+   }
+   }
